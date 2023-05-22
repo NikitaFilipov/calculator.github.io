@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+ }
+ body{
+     background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+ }
+ .calculator{}
+ input{
+     background-image: linear-gradient(to right top, #000000, #000000, #000000, #000000, #000000, #1b1518, #2d232b, #3d3341, #555c7b, #558eb5, #44c4df, #5ffbf1);
+     padding: 30px;
+     width: 300px;
+     border: #000000 solid;
+     color: white;
+     text-transform: uppercase;
+     font-size: 30px;
+ }
+ .panel{
+     background-color: #d2a813;
+     background-image: linear-gradient(315deg, #d23313 0%, yellow 74%,green 20% ,black 30%);
+     margin-top: 20px;
+     color: white;
+     padding-left: 10px;
+     height: 230px;
+     padding-top: 20px;
+ }
+ table td>button{
+     width: 70px;
+     background-color: yellowgreen;
+ background-image: linear-gradient(315deg, #000000 0%, #756995 74%);
+ color: white;
+ font-size: 20px;
+ }
+ table td{
+     padding-left: 10px;
+     
+ }
+ table{
+     padding: 10px;
+ }
+ .buttons>button{
+     color: yellow;
+     font-weight: bold;
+     font-size: 20px;
+ }
+ #reset{
+     width: 40%;
+     height: 40px;
+     text-align: center;
+     background-color: red;
+     margin-left: 20px;
+     cursor: pointer;
+ }
+ #equal{
+     width: 40%;
+     height: 40px;
+     text-align: center;
+     background-color: blue;
+     margin-left: 20px;
+     color: red;
+     font-size: 20px;
+     cursor: pointer;
+     margin-left: 32px;
+ }
